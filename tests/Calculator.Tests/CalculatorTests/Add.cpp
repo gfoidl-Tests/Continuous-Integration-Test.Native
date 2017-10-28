@@ -23,10 +23,18 @@ namespace Calculator_Tests_Calculator
             int b = 1;
 
             Calculator sut;
+            bool isExceptionThrown = false;
 
-            int actual = sut.Add(a, b);
+            try
+            {
+                int actual = sut.Add(a, b);
+            }
+            catch (std::invalid_argument&)
+            {
+                isExceptionThrown = true;
+            }
 
-            Assert::IsTrue(actual > a);
+            Assert::IsTrue(isExceptionThrown);
         }
     };
 }
