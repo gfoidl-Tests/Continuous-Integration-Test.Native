@@ -36,5 +36,25 @@ namespace Calculator_Tests_Calculator
 
             Assert::IsTrue(isExceptionThrown);
         }
+        //---------------------------------------------------------------------
+        TEST_METHOD(Custom_max_value___overflow)
+        {
+            int a = 100;
+            int b = 1;
+
+            Calculator sut = Calculator {100};
+            bool isExceptionThrown = false;
+
+            try
+            {
+                int actual = sut.Add(a, b);
+            }
+            catch (std::invalid_argument&)
+            {
+                isExceptionThrown = true;
+            }
+
+            Assert::IsTrue(isExceptionThrown);
+        }
     };
 }

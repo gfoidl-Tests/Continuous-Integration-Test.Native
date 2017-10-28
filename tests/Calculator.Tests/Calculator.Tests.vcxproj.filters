@@ -38,5 +38,8 @@
     <ClCompile Include="CalculatorTests\Swap.cpp">
       <Filter>Source Files\CalculatorTests</Filter>
     </ClCompile>
+    <ClCompile Include="CalculatorTests\Ctor.cpp">
+      <Filter>Source Files\CalculatorTests</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CalculatorTests\Add.cpp" />
+    <ClCompile Include="CalculatorTests\Ctor.cpp" />
     <ClCompile Include="CalculatorTests\Divide.cpp" />
     <ClCompile Include="CalculatorTests\Swap.cpp" />
     <ClCompile Include="stdafx.cpp">
