@@ -7,5 +7,8 @@ pull_requests:
     do_not_increment_build_number: true
 build:
     verbosity: minimal
+test_script:
+    # https://www.appveyor.com/docs/running-tests/
+    - cmd: vstest.console /logger:Appveyor x64\Release\Calculator.Tests.dll /Platform:x64 /inIsolation
 artifacts:
     - path: x64\Release\Calculator.lib
