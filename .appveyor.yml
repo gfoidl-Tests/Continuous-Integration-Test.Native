@@ -12,3 +12,4 @@ test_script:
     - cmd: vstest.console /logger:Appveyor x64\Release\Calculator.Tests.dll /Platform:x64 /inIsolation
 artifacts:
     - path: x64\Release\Calculator.lib
+    - path: x64\Release\Calculator.dll
