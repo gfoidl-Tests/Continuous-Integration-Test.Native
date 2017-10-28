@@ -11,6 +11,6 @@
 #include "CppUnitTest.h"
 
 // TODO: reference additional headers your program requires here
-#include <Calculator.h>
+#include "Calculator.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
