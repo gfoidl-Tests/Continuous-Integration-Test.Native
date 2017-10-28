@@ -15,6 +15,6 @@ namespace Calculator_Tests_Calculator
             int actual = sut.Add(a, b);
 
             Assert::AreEqual(7, actual);
-        };
+        }
     };
 }

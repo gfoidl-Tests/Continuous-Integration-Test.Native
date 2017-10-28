@@ -15,7 +15,7 @@ namespace Calculator_Tests_Calculator
             int actual = sut.Divide(a, b);
 
             Assert::AreEqual(3, actual);
-        };
+        }
         //---------------------------------------------------------------------
         TEST_METHOD(Divisor_is_0___throws_Argument_Exception)
         {

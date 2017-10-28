@@ -16,7 +16,7 @@ namespace Calculator_Tests_Calculator
 
             Assert::AreEqual(4, a);
             Assert::AreEqual(3, b);
-        };
+        }
         //---------------------------------------------------------------------
         TEST_METHOD(Huge_numbers___no_overflow)
         {
