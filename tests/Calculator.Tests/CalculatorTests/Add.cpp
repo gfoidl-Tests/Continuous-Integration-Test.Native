@@ -16,5 +16,17 @@ namespace Calculator_Tests_Calculator
 
             Assert::AreEqual(7, actual);
         }
+        //---------------------------------------------------------------------
+        TEST_METHOD(INT_MAX_as_summand___overflow)
+        {
+            int a = INT_MAX;
+            int b = 1;
+
+            Calculator sut;
+
+            int actual = sut.Add(a, b);
+
+            Assert::IsTrue(actual > a);
+        }
     };
 }
