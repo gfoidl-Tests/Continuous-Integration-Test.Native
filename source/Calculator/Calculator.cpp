@@ -12,3 +12,10 @@ int Calculator::Divide(const int a, const int b)
 
     return a / b;
 }
+//-----------------------------------------------------------------------------
+void Calculator::Swap(int& a, int& b)
+{
+    a = a + b;
+    b = a - b;
+    a = a - b;
+}

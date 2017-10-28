@@ -2,19 +2,20 @@
 //-----------------------------------------------------------------------------
 namespace Calculator_Tests_Calculator
 {
-    TEST_CLASS(Add)
+    TEST_CLASS(Swap)
     {
     public:
-        TEST_METHOD(Summands_given___correct_result)
+        TEST_METHOD(Numbers_given___correct_swap)
         {
             int a = 3;
             int b = 4;
 
             Calculator sut;
 
-            int actual = sut.Add(a, b);
+            sut.Swap(a, b);
 
-            Assert::AreEqual(7, actual);
+            Assert::AreEqual(4, a);
+            Assert::AreEqual(3, b);
         };
     };
 }

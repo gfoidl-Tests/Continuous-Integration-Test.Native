@@ -1,5 +1,5 @@
 #include "stdafx.h"
-
+//-----------------------------------------------------------------------------
 namespace Calculator_Tests_Calculator
 {
     TEST_CLASS(Divide)
