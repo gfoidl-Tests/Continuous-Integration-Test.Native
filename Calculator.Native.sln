@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A883E4B8
         .appveyor.yml = .appveyor.yml
     EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7F4CC660-F8FA-4A44-B456-968894353C8E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculator.Tests", "tests\Calculator.Tests\Calculator.Tests.vcxproj", "{C96E6C27-1E08-4CE7-8299-97E63D57EB81}"
+EndProject
 Global
     GlobalSection(SolutionConfigurationPlatforms) = preSolution
         Debug|x64 = Debug|x64
@@ -29,12 +33,17 @@ Global
         {4E9079DA-A52A-4FF5-9E09-C2058B521BFF}.Debug|x64.Build.0 = Debug|x64
         {4E9079DA-A52A-4FF5-9E09-C2058B521BFF}.Release|x64.ActiveCfg = Release|x64
         {4E9079DA-A52A-4FF5-9E09-C2058B521BFF}.Release|x64.Build.0 = Release|x64
+        {C96E6C27-1E08-4CE7-8299-97E63D57EB81}.Debug|x64.ActiveCfg = Debug|x64
+        {C96E6C27-1E08-4CE7-8299-97E63D57EB81}.Debug|x64.Build.0 = Debug|x64
+        {C96E6C27-1E08-4CE7-8299-97E63D57EB81}.Release|x64.ActiveCfg = Release|x64
+        {C96E6C27-1E08-4CE7-8299-97E63D57EB81}.Release|x64.Build.0 = Release|x64
     EndGlobalSection
     GlobalSection(SolutionProperties) = preSolution
         HideSolutionNode = FALSE
     EndGlobalSection
     GlobalSection(NestedProjects) = preSolution
         {4E9079DA-A52A-4FF5-9E09-C2058B521BFF} = {C34783C5-6702-48A2-95CE-4D9B309F3136}
+        {C96E6C27-1E08-4CE7-8299-97E63D57EB81} = {7F4CC660-F8FA-4A44-B456-968894353C8E}
     EndGlobalSection
     GlobalSection(ExtensibilityGlobals) = postSolution
         SolutionGuid = {9800093C-47F0-4E89-9752-58EDE5BC8DB6}
