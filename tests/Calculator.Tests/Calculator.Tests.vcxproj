@@ -48,11 +48,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)source\Calculator\;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)source\Calculator\;$(SolutionDir)tests\Calculator.Tests\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)source\Calculator\;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)source\Calculator\;$(SolutionDir)tests\Calculator.Tests\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -91,8 +91,8 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Calculator.Add.cpp" />
-    <ClCompile Include="Calculator.Divide.cpp" />
+    <ClCompile Include="CalculatorTests\Add.cpp" />
+    <ClCompile Include="CalculatorTests\Divide.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>

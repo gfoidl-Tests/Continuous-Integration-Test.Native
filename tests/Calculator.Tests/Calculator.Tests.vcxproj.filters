@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\CalculatorTests">
+      <UniqueIdentifier>{9fbaf482-4085-48ca-bf07-f8ba67f536f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -26,11 +29,11 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Calculator.Add.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="CalculatorTests\Add.cpp">
+      <Filter>Source Files\CalculatorTests</Filter>
     </ClCompile>
-    <ClCompile Include="Calculator.Divide.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="CalculatorTests\Divide.cpp">
+      <Filter>Source Files\CalculatorTests</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
